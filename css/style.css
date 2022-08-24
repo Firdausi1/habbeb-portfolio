@@ -1,0 +1,210 @@
+body {
+  background: #101010;
+  color: #fff;
+  padding: 50px 100px 172px;
+  font-family: poppins;
+}
+section {
+  border-top: 1px solid #c4c4c4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 111.5%;
+}
+h2 {
+  font-weight: 700;
+  font-size: 41.1414px;
+  line-height: 62px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 111.5%;
+  width: 462px;
+}
+h4 {
+  font-weight: 500;
+  font-size: 32.0188px;
+  line-height: 38px;
+  font-family: "Alegreya Sans";
+}
+h5 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 168%;
+  width: 470px;
+}
+p {
+  color: #ebebeb;
+  margin: 0;
+}
+button {
+  outline: none;
+  background: none;
+  border: none;
+  font-size: 10.5517px;
+  line-height: 16px;
+}
+.btnPrimary {
+  background-color: #fff;
+  color: #232334;
+  padding: 20px 25px;
+}
+.btnSecondary {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(2.17815px);
+  color: #ffffff;
+  padding: 20px 25px;
+}
+.btn-tertiary {
+  color: #fff;
+  margin-top: 95px;
+}
+.btn-tertiary img svg {
+  fill: #fff;
+  color: #fff;
+  background-color: #fff;
+}
+.about-border {
+  position: absolute;
+  width: 297px;
+  height: 59px;
+  background: rgba(124, 245, 210, 0.25);
+  opacity: 0.3;
+  top: -18px;
+}
+.work-border {
+  position: absolute;
+  width: 397px;
+  height: 59px;
+  background: rgba(124, 245, 210, 0.25);
+  opacity: 0.3;
+  top: -18px;
+}
+.logo {
+  width: 47.79px;
+  height: 47.79px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+}
+.logo-text {
+  position: absolute;
+  left: 15px;
+  top: 14px;
+  width: 137px;
+  font-weight: 600;
+  font-size: 13.7753px;
+  line-height: 21px;
+}
+.header-border {
+  position: absolute;
+  width: 594px;
+  height: 60px;
+  background: rgba(124, 245, 210, 0.25);
+  opacity: 0.3;
+  top: 60px;
+  left: -20px;
+}
+.header-title {
+  position: relative;
+}
+.header-text {
+  width: 650px;
+  font-weight: 400;
+  font-size: 22.6078px;
+  line-height: 32px;
+  opacity: 0.5;
+  margin-top: 85px;
+}
+.about,
+.work,
+.clients {
+  padding-top: 66px;
+  padding-bottom: 120px;
+}
+.about-text {
+  font-weight: 400;
+  font-size: 22.6078px;
+  line-height: 32px;
+  opacity: 0.4;
+  margin-left: 100px;
+  width: 600px;
+}
+.about-card_text {
+  font-weight: 300;
+  font-size: 22.61px;
+  line-height: 27px;
+  margin-top: 50px;
+  font-family: "Alegreya Sans";
+}
+.about-card {
+  width: 420px;
+}
+.work-card {
+  width: 489px;
+  margin-right: 52px;
+}
+.work-text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 36px;
+  font-family: "Alegreya Sans";
+}
+.client-text {
+  font-weight: 600;
+  font-size: 19.7517px;
+  line-height: 30px;
+  color: #414141;
+}
+.recom-border {
+  position: absolute;
+  width: 100%;
+  height: 240px;
+  background: rgba(255, 255, 255, 0.05);
+  bottom: 21px;
+  z-index: 10;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 180px 0;
+}
+.contact-text {
+  width: 522px;
+  font-weight: 500;
+  font-size: 19.28px;
+  line-height: 23px;
+  text-align: center;
+  color: #878787;
+  margin: 36px 0;
+  font-family: "Alegreya Sans";
+}
+footer {
+  background: rgba(255, 255, 255, 0.03);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 111px 100px 79px;
+  width: calc(100% + 200px);
+  margin-left: -100px;
+}
+.footer-icons img {
+  margin-right: 55px;
+}
+.footer-icons img:last-child {
+  margin-right: 0;
+}
